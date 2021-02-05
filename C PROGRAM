@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<stdbool.h>
+main()
+{
+int age;
+char name[30];
+printf("enter your name: ");
+sacnf("%s",&name);
+printf("enter your age: ");
+scanf("%d",&age);
+printf("your name %s and your age %d",name ,age);
+}
